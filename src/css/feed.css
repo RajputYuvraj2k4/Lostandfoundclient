@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h2 {
+    color: #343a40; 
+    font-size: 2rem; 
+    margin: 20px 0; /* Margin around headings */
+}
+
+.title-border {
+    width: 80px; 
+    height: 4px;
+    background-color: #007bff; 
+    margin: 0 auto 20px auto; 
+}
+
+.item-card {
+    background-color: #fff; 
+    border: none; 
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.item-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.card-body {
+    padding: 20px; /* Padding inside card body */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger font size for card titles */
+    color: #007bff; /* Primary color for titles */
+    margin-bottom: 10px; /* Margin below title */
+}
+
+.card-text {
+    color: #6c757d; /* Softer color for description text */
+    margin-bottom: 10px; /* Space between text elements */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.container {
+    margin-top: 40px; /* Margin above containers */
+}
+
+@media (max-width: 768px) {
+    .item-card {
+        margin-bottom: 20px; /* Space between cards on small screens */
+    }
+}

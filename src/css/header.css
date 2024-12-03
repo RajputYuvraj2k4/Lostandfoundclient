@@ -1,0 +1,46 @@
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 64px;
+    margin-left: 20%;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth {
+    margin-left: 80%;
+
+}
+
+.navbar-nav .btn {
+    padding: 0.5rem 1.4rem;
+    font-size: 1rem;
+
+}
+
+@media (max-width: 768px) {
+    .auth {
+        margin-left: 0%;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav .btn {
+        margin-right: 10px;
+    }
+
+    .navbar-brand img {
+        margin-left: 0%;
+    }
+}

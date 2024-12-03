@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #e7f1ff; /* Light Blue */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    color: blue;
+}
+
+.nav-link:hover {
+    color: darkblue !important;
+}
+
+#basic-navbar-nav {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        height: 74px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+}

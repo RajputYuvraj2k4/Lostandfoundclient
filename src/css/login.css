@@ -1,0 +1,110 @@
+.login-container {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.login-box {
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #2f4ac0;
+
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #2f4ac0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.password-input {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.password-input input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-input input[type="text"] {
+    width: 100%;
+    height: 40px;
+    bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.show-password {
+    position: absolute;
+    top: 32%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+}
+
+.submit-btn:hover {
+    background-color: #23527c;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #2f4ac0;
+}
+
+.signup-link a:hover {
+    color: #23527c;
+}
