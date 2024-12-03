@@ -22,10 +22,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/log-in" element={<Login />} />
         <Route path="/sign-up" element={<Signup />} />
-        <Route path="/feed" element={<Feed />} />
-        <Route path="/mylistings" element={<MyListings />} />
-        <Route path="/item/:id/:type" element={<ItemPage />} />
-        {/* <Route path="/feed" element={<PrivateRoute element={<Feed />} />} /> */}
+        <Route path="/feed" element={<PrivateRoute element={<Feed />} />} />
+        <Route path="/mylistings" element={<PrivateRoute element={<MyListings />} />} />
+        <Route path="/item/:id/:type" element={<PrivateRoute element={<ItemPage />} />} />
+        
       </Routes>
     </Router>
   );
